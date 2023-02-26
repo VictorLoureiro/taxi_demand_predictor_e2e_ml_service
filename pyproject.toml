@@ -2,27 +2,22 @@
 name = "src"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["VictorLoureiro <v.loureiro11@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
+jupyter = "^1.0.0"
 requests = "^2.28.2"
 pandas = "^1.5.3"
 pyarrow = "^11.0.0"
 tqdm = "^4.64.1"
-plotly = "^5.13.0"
-nbformat = "^5.7.3"
-sklearn = "^0.0.post1"
+plotly = "^5.13.1"
 scikit-learn = "^1.2.1"
-xgboost = "^1.7.3"
 lightgbm = "^3.3.5"
+xgboost = "^1.7.4"
 optuna = "^3.1.0"
 
-
-[tool.poetry.group.dev.dependencies]
-pandas = "^1.5.3"
-ipykernel = "^6.21.2"
 
 [build-system]
 requires = ["poetry-core"]
