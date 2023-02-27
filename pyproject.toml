@@ -6,7 +6,7 @@ authors = ["VictorLoureiro <v.loureiro11@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.10"
+python = ">=3.9,<3.9.7 || >3.9.7,<3.10"
 jupyter = "^1.0.0"
 requests = "^2.28.2"
 pandas = "^1.5.3"
@@ -19,6 +19,9 @@ xgboost = "^1.7.4"
 optuna = "^3.1.0"
 python-dotenv = "^1.0.0"
 hopsworks = "^3.0.5"
+streamlit = "^1.19.0"
+geopandas = "^0.12.2"
+pydeck = "^0.8.0"
 
 
 [build-system]
